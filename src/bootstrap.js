@@ -1,2 +1,5 @@
-// ES6 code goes here
-console.log('es6 code goes here');
+import myCoolFunc from "./example";
+import { name } from "./example";
+
+console.log(myCoolFunc());
+console.log(name);
