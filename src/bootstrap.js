@@ -1,5 +1,3 @@
-import myCoolFunc from "./example";
-import { name } from "./example";
-
-console.log(myCoolFunc());
-console.log(name);
+import {addNumsInArray, containsHello} from './arrays.js'
+console.log(addNumsInArray([12, 34, 56, 78]));
+console.log(containsHello(['hello', 'yes', 'no'], 'aaaaa'))
