@@ -1,5 +1,4 @@
-import myCoolFunc from "./example";
-import { name } from "./example";
+import {add, checkNumber} from "./numbers.js"
+console.log(add(1, 2))
 
-console.log(myCoolFunc());
-console.log(name);
+console.log(checkNumber(3))
