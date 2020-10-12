@@ -1,5 +1,4 @@
-import myCoolFunc from "./example";
-import { name } from "./example";
+import { python, cory, Class, Student } from "./class.js";
 
-console.log(myCoolFunc());
-console.log(name);
+console.log(cory.contactInfo());
+console.log(python.classInfo())
