@@ -1,5 +1,3 @@
-import myCoolFunc from "./example";
-import { name } from "./example";
-
-console.log(myCoolFunc());
-console.log(name);
+import {capitalizeFirstLetter, greet} from './strings.js'
+console.log(capitalizeFirstLetter('gitWorkin'));
+console.log(greet("EvalynLedezma"));
