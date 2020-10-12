@@ -1,5 +1,3 @@
-import myCoolFunc from "./example";
-import { name } from "./example";
+import {sumObject, objNum} from './zacObject'
 
-console.log(myCoolFunc());
-console.log(name);
+console.log(sumObject(objNum))
